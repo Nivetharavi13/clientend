@@ -1,8 +1,14 @@
+import { Route, Routes } from "react-router";
+//import Loader from "./layout/Loader";
+import Home from './components/Home'
+
 const App = () => {
   return ( 
-    <>
-    <h1>Nivetha S R</h1>
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>}  />
+      </Routes>
+    </div>
    );
 }
  
